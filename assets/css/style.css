@@ -215,3 +215,39 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width: 768px) {
+  .row, .navbar, nav a, p {
+        flex-direction: column;
+      width: 100%;}
+      nav a {display: inline; 
+      }
+      
+      
+  /*container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    clear: both;
+    }
+*/
+  }
+
+@media (max-width: 640px) {
+    .row, .navbar, nav a, p {   
+        flex-direction: column;
+        width:100%;}
+        nav a {display: center;}
+        #main {width: 100%;}
+  /*  
+     container {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      clear: both;
+      }
+      #masthead {
+      position: static;
+      width: 100%;
+    }*/
+  }
