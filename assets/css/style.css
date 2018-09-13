@@ -220,7 +220,8 @@ input[type=submit] {
   .row, .navbar, nav{
         flex-direction: column;
       width: 100%;}
-      nav a {display: inline; 
+  nav a {
+    display: inline; 
       }
 }
 
@@ -228,6 +229,7 @@ input[type=submit] {
     .row, .navbar, .auth-image, nav {   
         flex-direction: column;
         width:100%;}
-        nav a, .container {display: center;}
-        #main {width: 100%;}
-}
+    nav a, .container {
+        display: center;}
+      width: 100%;
+    }
